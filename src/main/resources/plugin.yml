@@ -1,0 +1,43 @@
+name: ${project.name}
+main: ${project.groupId}.${project.artifactId}.${project.name}
+version: ${project.version}
+description: ${project.description}
+author: NerdsWBNerds
+url: ${project.url}
+load: STARTUP
+softdepend: [MyAPI,PermissionsEx,Essentials]
+commands:
+   servers:
+      description: Open server browser.
+      usage: /<command>
+      aliases: [s, server, browse]
+   toggle:
+      description: Toggle various things.
+      usage: /<command>
+      aliases: [o, option, options, os]
+   beta:
+      description: Open server browser.
+      usage: /<command>
+   register:
+      description: Register for the forums.
+      usage: /<command> <email> <password> <password_confirm>
+   vote:
+      description: Get voting info.
+      usage: /<command>
+   color:
+      description: List different color names, color, and code.
+      usage: /<command>
+      aliases: [colors, col]
+   nvg:
+      description: Toggles night vision.
+      usage: /<command>
+   chat:
+      description: Force send a chat message.
+      usage: /<command>
+   sounds:
+      description: Test sounds.
+      usage: /<command> [all]
+   stats:
+      description: Stats
+      usage: /<command> [set|view|list]
+      aliases: [stat]
